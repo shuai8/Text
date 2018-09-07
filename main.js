@@ -277,7 +277,7 @@ function minutes(s){
     var timer1 =  setInterval(showTime,50);
     function showTime() {
         var startTime = new Date();
-        var endTime = new Date('2018 11 10 20:00:00');
+        var endTime = new Date('2018 10 5 20:00:00');
         var leftTime = endTime.getTime() - startTime.getTime();
         if (leftTime<=0){
             clearInterval(timer1);
